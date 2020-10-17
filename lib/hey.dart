@@ -10,7 +10,6 @@ class _MyHomePageState extends State<MyHomePage> {
   /////////
   Future<void> secureScreen() async {
     await FlutterWindowManager.addFlags(FlutterWindowManager.FLAG_SECURE);
-    await FlutterWindowManager.addFlags(Flutter)
   }
 
   @override
